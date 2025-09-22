@@ -14,10 +14,10 @@
 
 Key capabilities include:
 
-- Backtesting and strategy evaluation for cryptocurrencies.
-- Simulation of trading bots using technical indicators like RSI and MACD.
-- Data-driven research for building automated trading strategies.
-- Future support for stock market analysis.
+- Backtesting & Strategy Evaluation: Test and optimize cryptocurrency trading strategies using historical data.
+- Automated Trading Bot Simulation: Develop and simulate trading bots with popular technical indicators such as RSI and MACD.
+- Data-Driven Research: Conduct quantitative analysis to inform and refine investment strategies.
+- Future Expansion to Equities: Planned support for stock market data with the same analysis, backtesting, and automation features.
 
 ---
 

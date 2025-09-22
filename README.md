@@ -1,6 +1,6 @@
 # SIRIFI
 
-**Smart Insights & Research for Investments in Financial Instruments**  
+**Smart Insights & Research in Financial Intelligence**  
 
 <img src="images/image.png" alt="Logo" height="180" width="180">
 

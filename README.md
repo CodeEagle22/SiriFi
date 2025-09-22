@@ -33,7 +33,7 @@ Narwade, S., Desai, R. (2025), **SIRIFI: Smart Insights & Research for Investmen
 
 - Python version: `>=3.10, <3.11`
 - Recommended IDEs: Visual Studio, Jupyter Notebook, Google Colab
-- Sample datasets: [SIRIFI Sample Dataset](https://github.com/CodeEagle22/SIRITVIS/tree/main/sample_dataset)
+- Sample datasets: [SIRIFI Sample Notebook]([https://github.com/CodeEagle22/SIRITVIS/tree/main/sample_dataset](https://github.com/CodeEagle22/SiriFi/blob/main/sample_test_notebook.ipynb))
 
 ---
 

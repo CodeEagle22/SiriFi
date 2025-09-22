@@ -56,7 +56,7 @@ flowchart TD
     A[Data Streaming: Binance / Yahoo Finance] --> B[Data Cleaning & Transformation]
     B --> C[Feature Engineering: RSI, MACD, Bollinger, ATR, ROC, etc.]
     C --> D[Interactive Dashboard: Visual Insights]
-    C --> E[Value Investment Analysis: Rank & Filter Coins]
+    D --> E[Value Investment Analysis: Rank & Filter Coins]
     D --> F[Sentiment Analysis: Reddit & Market Data]
     E --> F[Backtesting: Strategy Optimization]
     F --> G[Trading Bot Simulation: Dry-run / Live with Telegram Alerts]

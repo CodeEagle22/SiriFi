@@ -53,13 +53,15 @@ Narwade, S., Desai, R. (2025), **SIRIFI: Smart Insights & Research for Investmen
 
 ```mermaid
 flowchart TD
-    A[Data Streaming: Binance / Yahoo Finance] --> B[Data Cleaning & Transformation]
-    B --> C[Feature Engineering: RSI, MACD, Bollinger, ATR, ROC, etc.]
-    C --> D[Interactive Dashboard: Visual Insights]
-    C --> E[Value Investment Analysis: Rank & Filter Coins]
-    D --> F[Sentiment Analysis: Reddit & Market Data]
-    E --> F[Backtesting: Strategy Optimization]
+    A[Data Streaming: Binance / Yahoo Finance] --> B[Feature Engineering: Cleaning, RSI, MACD, Bollinger, ATR, ROC, etc.]
+    B --> C[Interactive Dashboard: Visual Insights]
+    C --> D[Value Investment Analysis: Rank & Filter Coins]
+    C --> E[Sentiment Analysis: Reddit & Market Data]
+    D --> F[Backtesting: Strategy Optimization]
+    E --> F
     F --> G[Trading Bot Simulation: Dry-run / Live with Telegram Alerts]
+
+
 ```
 
 ## 🛠 Installation

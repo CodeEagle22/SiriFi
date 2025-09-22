@@ -40,11 +40,10 @@ Narwade, S., Desai, R. (2025), **SIRIFI: Smart Insights & Research for Investmen
 ## 💡 Features
 
 - **Data Streaming & Historical Fetching** 💾 – Pull cryptocurrency data from Binance or Yahoo Finance.
-- **Data Cleaning & Transformation** 🧹 – Handle missing data, normalize, and prepare datasets for analysis.
 - **Feature Engineering** 🏗️ – Compute technical indicators like RSI, MACD, Bollinger Bands, ATR, ROC, and more.
+- **Interactive Dashboards & Visualization** 🔍 – Explore and compare assets with Plotly-based dashboards.
 - **Value Investment Analysis** 💰 – Identify potentially valuable coins based on market metrics and custom scoring.
 - **Sentiment Analysis** 🗨️ – Analyze social media (Reddit) and market sentiment for cryptocurrencies.
-- **Interactive Dashboards & Visualization** 🔍 – Explore and compare assets with Plotly-based dashboards.
 - **Backtesting & Strategy Optimization** 📊 – Test trading strategies using RSI, MACD, and custom parameters.
 - **Trading Bot Simulation** 🤖 – Simulate automated trading with configurable strategies and Telegram notifications.
 

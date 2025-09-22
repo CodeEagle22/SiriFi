@@ -58,8 +58,10 @@ flowchart TD
     C --> D[Interactive Dashboard: Visual Insights]
     D --> E[Value Investment Analysis: Rank & Filter Coins]
     D --> F[Sentiment Analysis: Reddit & Market Data]
-    EF --> G[Backtesting: Strategy Optimization]
+    E --> G[Backtesting: Strategy Optimization]
+    F --> G
     G --> H[Trading Bot Simulation: Dry-run / Live with Telegram Alerts]
+
 ```
 
 ## 🛠 Installation

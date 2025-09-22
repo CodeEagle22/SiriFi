@@ -1,0 +1,449 @@
+Metadata-Version: 2.1
+Name: sirifi
+Version: 0.1.5.2
+Summary: SiriFi: Smart Insights & Research for Investments in Financial Instruments
+Home-page: https://github.com/CodeEagle22/SiriFi
+Author: Sagar Narwade, Rudra Desai
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: aiohappyeyeballs==2.6.1
+Requires-Dist: aiohttp==3.12.13
+Requires-Dist: aiosignal==1.4.0
+Requires-Dist: alpha_vantage==3.0.0
+Requires-Dist: anyio==4.9.0
+Requires-Dist: attrs==25.3.0
+Requires-Dist: backports.tarfile==1.2.0
+Requires-Dist: beautifulsoup4==4.13.4
+Requires-Dist: binance==0.3.55
+Requires-Dist: build==1.3.0
+Requires-Dist: certifi==2025.6.15
+Requires-Dist: cffi==1.17.1
+Requires-Dist: charset-normalizer==3.4.2
+Requires-Dist: contourpy==1.3.2
+Requires-Dist: cryptography==45.0.5
+Requires-Dist: curl_cffi==0.11.4
+Requires-Dist: cycler==0.12.1
+Requires-Dist: dateparser==1.2.2
+Requires-Dist: docutils==0.22
+Requires-Dist: dotenv==0.9.9
+Requires-Dist: fastjsonschema==2.21.2
+Requires-Dist: fonttools==4.58.5
+Requires-Dist: frozendict==2.4.6
+Requires-Dist: frozenlist==1.7.0
+Requires-Dist: greenlet==3.2.4
+Requires-Dist: h11==0.16.0
+Requires-Dist: httpcore==1.0.9
+Requires-Dist: httpx==0.28.1
+Requires-Dist: id==1.5.0
+Requires-Dist: jsonschema==4.25.1
+Requires-Dist: jsonschema-specifications==2025.9.1
+Requires-Dist: jaraco.classes==3.4.0
+Requires-Dist: jaraco.context==6.0.1
+Requires-Dist: jaraco.functools==4.2.1
+Requires-Dist: jedi==0.18.2
+Requires-Dist: markdown-it-py==3.0.0
+Requires-Dist: matplotlib==3.10.3
+Requires-Dist: mdurl==0.1.2
+Requires-Dist: more-itertools==10.7.0
+Requires-Dist: multidict==6.6.3
+Requires-Dist: multitasking==0.0.11
+Requires-Dist: narwhals==2.5.0
+Requires-Dist: nbformat==5.10.4
+Requires-Dist: newsapi==0.1.1
+Requires-Dist: newsapi-python==0.2.7
+Requires-Dist: nh3==0.3.0
+Requires-Dist: numpy==1.26.4
+Requires-Dist: openpyxl==3.1.5
+Requires-Dist: pandas==2.3.0
+Requires-Dist: patsy==1.0.1
+Requires-Dist: peewee==3.18.1
+Requires-Dist: pickleshare==0.7.5
+Requires-Dist: pillow==11.3.0
+Requires-Dist: playwright==1.54.0
+Requires-Dist: plotly==6.3.0
+Requires-Dist: praw==7.8.1
+Requires-Dist: prawcore==2.4.0
+Requires-Dist: propcache==0.3.2
+Requires-Dist: protobuf==6.31.1
+Requires-Dist: pycparser==2.22
+Requires-Dist: pycryptodome==3.23.0
+Requires-Dist: pyee==13.0.0
+Requires-Dist: Pygments==2.16.1
+Requires-Dist: pyparsing==3.2.3
+Requires-Dist: pyproject_hooks==1.2.0
+Requires-Dist: PySocks==1.7.1
+Requires-Dist: python-binance==1.0.29
+Requires-Dist: python-dotenv==1.1.1
+Requires-Dist: python-telegram-bot==22.3
+Requires-Dist: pytz==2025.2
+Requires-Dist: readme_renderer==44.0
+Requires-Dist: referencing==0.36.2
+Requires-Dist: regex==2024.11.6
+Requires-Dist: requests==2.32.4
+Requires-Dist: requests-futures==1.0.2
+Requires-Dist: requests-toolbelt==1.0.0
+Requires-Dist: rfc3986==2.0.0
+Requires-Dist: rich==14.1.0
+Requires-Dist: rpds-py==0.27.1
+Requires-Dist: schedule==1.2.2
+Requires-Dist: scipy==1.10.1
+Requires-Dist: seaborn==0.13.2
+Requires-Dist: selenium==4.34.0
+Requires-Dist: six==1.16.0
+Requires-Dist: sniffio==1.3.1
+Requires-Dist: sortedcontainers==2.4.0
+Requires-Dist: soupsieve==2.7
+Requires-Dist: statsmodels==0.13.5
+Requires-Dist: stocktrends==0.1.5
+Requires-Dist: ta==0.11.0
+Requires-Dist: tqdm==4.67.1
+Requires-Dist: trio==0.30.0
+Requires-Dist: trio-websocket==0.12.2
+Requires-Dist: twine==6.1.0
+Requires-Dist: typing_extensions==4.14.0
+Requires-Dist: tzdata==2025.2
+Requires-Dist: tzlocal==5.3.1
+Requires-Dist: update-checker==0.18.0
+Requires-Dist: urllib3==2.4.0
+Requires-Dist: vaderSentiment==3.3.2
+Requires-Dist: websocket-client==1.8.0
+Requires-Dist: websockets==15.0.1
+Requires-Dist: wsproto==1.2.0
+Requires-Dist: yahooquery==2.4.1
+Requires-Dist: yarl==1.20.1
+Requires-Dist: yfinance==0.2.64
+
+
+
+# SIRIFI
+
+Smart Insights & Research for Investments in Financial Instruments
+
+
+<img src="images/image.png" alt="Logo" height="180" width="180">
+
+
+## 📋 Summary   
+
+Sirifi is a comprehensive Python package for quantitative analysis of cryptocurrency data. It enables users to extract, clean, and transform raw data from sources such as Yahoo Finance and Binance, followed by advanced feature engineering to generate actionable insights. The package supports data visualization, sentiment analysis, and identification of potentially valuable investment coins using benchmarked analytical tools. While Sirifi provides detailed insights, it is intended for informational purposes only and not as financial advice.
+
+A key feature of Sirifi is its backtesting and trading bot functionality, where users can evaluate strategies on value investment coins or any user-defined cryptocurrencies. Users can incorporate popular indicators such as RSI (Relative Strength Index) and MACD (Moving Average Convergence Divergence), and selectively enable or disable either or both indicators according to their strategy. Based on backtesting results, users can assess the potential of building automated trading bots for Binance or simulate trading with customizable parameters in a demo environment.
+
+Looking ahead, Sirifi will be extended to support stock market data, bringing the same quantitative analysis, backtesting, and trading bot capabilities to equities in addition to cryptocurrencies. Sirifi is a versatile tool for data-driven research, strategy evaluation, and experimental trading across multiple financial markets.
+
+## 📝 How to cite
+
+Narwade, S., Desai, R. (2025), SIRIFI: Smart Insights & Research for Investments in Financial Instruments. Journal of Open Source Software, https://joss.theoj.org/papers/b51be70e9634e45d8035ee20b6147d76.
+
+Markdown:
+[![DOI](https://joss.theoj.org/papers/10.21105/joss.06243/status.svg)](https://doi.org/10.21105/joss.06243)
+
+HTML:
+<a style="border-width:0" href="https://doi.org/10.21105/joss.06243">
+  <img src="https://joss.theoj.org/papers/10.21105/joss.06243/status.svg" alt="DOI badge" >
+</a>
+
+
+
+
+
+## Advisory
+
+- Ensure Python version '>=3.10, <3.11'.
+- Utilize IDEs like Visual Studio or platforms like Google Colab for enhanced plot visualization.
+- Refer to the provided [sample dataset](https://github.com/CodeEagle22/SIRITVIS/tree/main/sample_dataset) for better comprehension.
+
+## 💡 Features
+
+- Data Streaming 💾
+- Data Cleaning 🧹
+- Topic Model Training and Evaluation :dart:
+- Topic Visual Insights 🔍
+- Trending Topic Geo Visualisation 🌏
+
+## 🛠 Installation
+
+Attention: SIRITVIS is specifically tailored for operation on Python 3.10, and its visualization capabilities are optimized for Python notebooks. Extensive testing has been conducted under these specifications. For the best compatibility and performance, we advise setting up a fresh (conda) environment utilizing Python 3.10.10.
+
+The package can be installed via pip:
+
+```bash
+pip install sirifi
+```
+
+## 👩‍💻 Usage ([documentation])
+
+### Import Libraries
+
+```python
+from sirifi import Sirifi_C_DataStreamer, Sirifi_C_FeatureEngineering, Sirifi_C_Dashboard, Sirifi_C_ValueInvest, Sirifi_C_SentimentAnalyzer, Sirifi_C_Backtester, Sirifi_C_TradingBot
+```
+
+### Streaming Raw Data
+
+```python
+# Run the streaming process to retrieve raw data based on the specified assets
+
+# Binance → Profile → API Management → Create API → Verify → Copy Key & Secret → Enable “Spot & Margin Trading” (Futures optional, Withdrawals ❌) → (Optional) Restrict IP → Store keys safely.
+API_KEY = "XXXXXXXX"
+API_SECRET = "XXXXXXXX"
+
+# ✅ Initialize the data fetcher with your Binance API credentials
+# First, ensure you have securely loaded your API Key and Secret (e.g., from environment variables or .env file).
+fetcher = Sirifi_C_DataStreamer(
+    binance_api_key=API_KEY,       # Replace with your actual Binance API Key
+    binance_api_secret=API_SECRET  # Replace with your actual Binance API Secret
+)
+
+# ✅ Define the list of base assets (cryptocurrencies) you want to fetch data for
+# In this example, we are fetching data for Bitcoin (BTC), Ethereum (ETH), Cardano (ADA), Ripple (XRP), and Dogecoin (DOGE).
+base_assets = ['BTC', 'ETH', 'ADA', 'XRP', 'DOGE']  
+
+# ✅ Fetch historical OHLCV (Open, High, Low, Close, Volume) data from Binance
+results = fetcher.fetch(
+    base_assets=base_assets,       # List of coins for which you want to fetch data
+    currency='USDC',               # Quote currency: USD stablecoins like USD, USDT, USDC, BUSD, EUR, GBP (can be changed as needed)
+    interval='1d',                 # Timeframe for the data: '1m', '5m', '1h', '1d', '1w', etc. ('1d' means daily data)
+    source='binance',              # Data source: 'yfinance' & 'binance' means we are pulling data directly from Binance
+    start_date='2024-09-01',       # Start date for the data range (format: 'YYYY-MM-DD')
+    end_date='2025-09-23'          # End date for the data range (format: 'YYYY-MM-DD')
+)
+
+# ✅ Example: Access and print the first few rows of data for BTC and ETH
+
+results['BTC'].head()
+results['ETH'].head()
+
+
+```
+
+
+### Feature Engineering on Raw Data
+
+```python
+# Run the feature engineering process to retrieve more data insights from raw data
+# Add up indicators and features
+for asset in base_assets:
+    sfe = Sirifi_C_FeatureEngineering(results[asset])
+    results[asset] = sfe.get_transformed_data()
+
+results['ETH'].head()
+
+''' Columns: 
+'Date', 'Open', 'High', 'Low', 'Close', 'Volume', 'pct_return', 'ma_20',
+'ma_50', 'ma_200', 'ema_12', 'ema_26', 'macd', 'macd_signal',
+'macd_histogram', 'rsi', 'bollinger_middle', 'bollinger_upper',
+'bollinger_lower', 'obv', 'roc', 'atr', 'candle_range', 'price_gap',
+'return_std', 'signal_crossover', 'rsi_signal', 'macd_cross'
+'''
+
+```
+
+### Feature Dash Board
+
+```python
+
+# Robust Plotly Dashboard
+# Comparative Interactive Dashboard
+dashboard = Sirifi_C_Dashboard(results, normalize=False) # Keep normalisation True for better comparison
+dashboard.show()
+
+```
+
+### Feature Value Investment
+
+```python
+
+
+# Initialize the analyzer
+analyzer = Sirifi_C_ValueInvest(
+    api_key=API_KEY,
+    api_secret=API_SECRET,
+    quote_asset="USDC",        # Trading pairs to analyze (e.g., BTC/USDC, ETH/USDC)
+    max_symbols=30,            # Maximum number of symbols (pairs) to fetch and analyze
+    threads=10,                # Parallel threads for speed. 
+                               # threads=1  → sequential (safest but slowest)
+                               # threads=5  → balanced speed vs. API limits
+                               # threads=20 → very fast but may risk Binance API ban
+    history_days=360,          # Number of historical days to fetch for metrics (1 year lookback)
+    min_marketcap=1_000_000_000,  # Filter: keep only coins with market cap > 1B
+    min_agedays=1000           # Filter: keep only coins listed more than 1000 days ago
+)
+
+# Run the analysis
+results = analyzer.analyze()
+
+# Print results
+if not results.empty:
+    print("\nTop Ranked Coins:")
+    print(results.head(10))   # Show top 10 ranked coins by custom value score
+else:
+    print("No results after filtering.")  # If all coins were filtered out
+
+
+```
+
+### Feature Sentiment Analysis
+
+```python
+
+
+# =======================
+# Initialize Sentiment Analyzer
+# =======================
+cs = Sirifi_C_SentimentAnalyzer(
+    # Binance API keys for market data access
+    # Binance API credentials: used to access Binance account data and market information
+    binance_key=API_KEY,
+    binance_secret=API_SECRET,
+    
+    # Reddit credentials to pull social sentiment data
+    # Reddit API credentials: used to fetch posts/comments for sentiment analysis
+    reddit_id=REDDIT_CLIENT_ID,
+    reddit_secret=REDDIT_CLIENT_SECRET,
+    reddit_agent=REDDIT_USER_AGENT,
+    
+    # List of cryptocurrency symbols to analyze (base coins only, no quote currency)
+    symbols=['ADA', 'XRP', 'BNB'],  
+    
+    # Optional: You can set a quote asset, e.g., "USDC", default is "USDT"
+    # quote_asset="USDC",
+    
+    # Filter coins by market cap (or trading volume) to focus on significant coins
+    min_marketcap=10_000_000_000,  # 10B USD
+    
+    # Candlestick interval: "1d" means daily candles
+    interval="1d",  
+    
+    # Limit the number of candles to fetch; 1 here will fetch the most recent candle
+    limit=1  
+)
+
+# =======================
+# Run analysis
+# =======================
+df = cs.run()  # Executes the sentiment analysis and returns a DataFrame with results
+
+# Display the resulting DataFrame
+df
+
+
+```
+### Feature Back Test Trading
+
+```python
+
+import pandas as pd
+
+# Define the trading pairs (symbols) to backtest
+symbols = ['LTCUSDC', 'TRXUSDC', 'ENAUSDC']
+
+# Define the candlestick intervals to test strategies on
+intervals = ['30m','1h','2h']
+
+# Store best parameter results for each symbol
+results = []
+
+for symbol in symbols:
+    print(f"\n🔍 Backtesting {symbol}")
+    
+    # Initialize the backtester for the given symbol
+    backtester = Sirifi_C_Backtester(
+        symbol=symbol,
+        intervals=intervals,   # Multiple timeframes to test
+        days=7,                # Lookback period (past 7 days)
+        fee=0.001,             # Trading fee (0.1%)
+        slippage_pct=0.0005,   # Slippage assumption (0.05%)
+        use_rsi=False,         # Disable RSI indicator
+        use_macd=True          # Enable MACD indicator
+        # 👉 Custom parameter ranges could be added here (e.g. MACD fast/slow periods)
+    )
+
+    # Run optimization to find the best-performing parameters
+    best_params, df = backtester._optimize()
+
+    if best_params:
+        # Save the best parameters for this symbol
+        results.append(best_params)
+        print(f"✅ Best Params for {symbol}:\n", best_params)
+    else:
+        # If no profitable strategy is found
+        print(f"❌ No valid strategy found for {symbol}")
+
+# Combine all results into a single DataFrame for comparison
+results_df = pd.DataFrame(results)
+results_df
+
+```
+
+### Feature Trading Bot
+
+```python
+
+import os
+
+# Strategy parameters for the trading bot
+params = {
+    'macd_fast': 10,          # Fast EMA period for MACD indicator
+    'macd_slow': 26,          # Slow EMA period for MACD indicator
+    'macd_signal': 6,         # Signal line period for MACD indicator
+    'rsi_period': 10,         # Lookback period for RSI calculation
+    'rsi_oversold': 25,       # RSI threshold for oversold condition (potential buy)
+    'rsi_overbought': 60,     # RSI threshold for overbought condition (potential sell)
+    'stop_loss': 0.02,        # Maximum loss tolerance (2% below entry price)
+    'take_profit': 0.05,      # Target profit level (5% above entry price)
+    'use_rsi': False,         # Whether to use RSI indicator in strategy
+    'use_macd': True          # Whether to use MACD indicator in strategy
+}
+
+# Initialize the trading bot with configuration
+bot = Sirifi_C_TradingBot(
+    symbol='ADAUSDC',                     # Trading pair (Cardano vs USDC)
+    interval='2h',                        # Candle timeframe (2-hour intervals)
+    params=params,                        # Strategy parameters defined above
+    api_key=API_KEY,   # API key for exchange access
+    api_secret=API_SECRET, # API secret for exchange access
+    
+    # Telegram integration for notifications
+    enable_telegram=True,                 # Enable sending updates to Telegram
+    telegram_token=BOT_TOKEN,   # Bot token from BotFather
+    telegram_chat_id=BOT_CHAT_ID,        # Chat ID to send trading alerts
+    
+    dry_run=True,                         # Run in simulation mode (no real trades executed)
+    max_budget=100,                       # Maximum budget allocated for trading (in USDC)
+)
+
+# Start the trading bot loop
+# This will continuously fetch market data, apply the strategy,
+# and (if not in dry_run mode) execute trades according to signals.
+bot.run_loop()
+
+
+```
+## 📣 Community guidelines
+
+We encourage and welcome contributions to the sirifi package. If you have any questions, want to report bugs, or have ideas for new features, please file an issue. 
+
+Additionally, we appreciate pull requests via GitHub. There are several areas where potential contributions can make a significant impact, such as enhancing the quality of features in topic models when dealing with noisy data from Reddit, Instagram or any external data sources, and improving the topic_mapper function to make it more interactive and independent from the notebook.
+
+## 🖊️ Authors
+
+- Sagar Narwade
+- Rudra Desai
+
+## 🎓 References
+In our project, we utilised the "OCTIS" [^1^] tool, a fantastic library by Terragni et al., which provided essential functionalities. Additionally, we incorporated the "pyLDAvis" [^2^] by Ben Mabey Python library for interactive topic model visualisation, enriching our application with powerful data insights. The seamless integration of these resources significantly contributed to the project's success, offering an enhanced user experience and valuable research capabilities.
+
+[^1^]: [OCTIS](https://github.com/MIND-Lab/OCTIS).
+[^2^]: [pyLDAvis](https://github.com/bmabey/pyLDAvis)
+
+## 📜 License
+
+This project is licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). See the [LICENSE](./LICENSE) file for details.
+
+
+
+

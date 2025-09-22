@@ -1,0 +1,15 @@
+README.md
+setup.py
+sirifi/__init__.py
+sirifi/crypto_back_test.py
+sirifi/crypto_dashboard.py
+sirifi/crypto_feature_engineering.py
+sirifi/crypto_sentiment.py
+sirifi/crypto_streamer.py
+sirifi/crypto_value_investment.py
+sirifi/value_investment.py
+sirifi.egg-info/PKG-INFO
+sirifi.egg-info/SOURCES.txt
+sirifi.egg-info/dependency_links.txt
+sirifi.egg-info/requires.txt
+sirifi.egg-info/top_level.txt

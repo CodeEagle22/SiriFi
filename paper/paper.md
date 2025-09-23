@@ -58,20 +58,4 @@ We thank the open-source community for providing tools and APIs that supported t
 
 # References
 
-- Binance API: https://www.binance.com  
-- Yahoo Finance: https://finance.yahoo.com  
-- Hutto, C.J. & Gilbert, E. (2014). VADER: A Parsimonious Rule-based Model for Sentiment Analysis of Social Media Text. *Eighth International Conference on Weblogs and Social Media (ICWSM-14)*.  
-- Fama, E. F., & French, K. R. (1992). The Cross-Section of Expected Stock Returns. *The Journal of Finance*, 47(2), 427–465.  
-- Lupu, R. (2025). Sentiment Matters for Cryptocurrencies: Evidence from Social Media. *Journal of Financial Markets*, 10(4), 50.  
-  https://doi.org/10.3390/jfm10040050  
-- Jung, H.S. (2025). Detecting Bitcoin Sentiment: Leveraging Language Models. *Journal of Machine Learning in Finance*, 12(2), 134–150.  
-  https://doi.org/10.1007/s11063-025-11787-1  
-- Mantilla, P. (2023). A Novel Feature Engineering Approach for High-Frequency Financial Data. *Expert Systems with Applications*, 210, 118–130.  
-  https://doi.org/10.1016/j.eswa.2022.118130  
-- Riabykh, A., & Bessonov, V. (2025). Entropy-based Text Feature Engineering Approach for Financial Market Prediction. *EPJ Data Science*, 14(1), 35–47.  
-  https://doi.org/10.1140/epjds/s13688-025-00535-z  
-- Saberironaghi, M., Ren, J., & Saberironaghi, A. (2025). Stock Market Prediction Using Machine Learning and Deep Learning Techniques: A Review. *Applied Mathematics*, 5(3), 76.  
-  https://doi.org/10.3390/appliedmath5030076  
-- Mackey, S. (2025). Backtesting Software Ranked for Retail Quants. *LuxAlgo Blog*.  
-  https://www.luxalgo.com/blog/backtesting-software-ranked-for-retail-quants/  
-- ValuePickr Community: https://forum.valuepickr.com
+

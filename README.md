@@ -1,6 +1,6 @@
 # SIRIFI
 
-**Smart Insights & Research for Investments in Financial Instruments**  
+**Smart Insights & Research in Financial Intelligence**  
 
 <img src="images/image.png" alt="Logo" height="180" width="180">
 
@@ -192,8 +192,8 @@ else:
 cs = Sirifi_C_SentimentAnalyzer(
     # Binance API keys for market data access
     # Binance API credentials: used to access Binance account data and market information
-    binance_key=BINANCE_API_KEY,
-    binance_secret=BINANCE_API_SECRET,
+    binance_key=API_KEY,
+    binance_secret=API_SECRET,
     
     # Reddit credentials to pull social sentiment data
     # Reddit API credentials: used to fetch posts/comments for sentiment analysis

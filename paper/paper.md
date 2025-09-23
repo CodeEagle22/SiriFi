@@ -46,7 +46,7 @@ Sirifi distinguishes itself by offering a unified framework that combines data a
 
 # Figures
 
-![Indicators Dashboard\label{fig:feature-engineering-dashboard}](featureengineering_plot.png)
+![Indicators Dashboard](featureengineering_plot.png){#fig:feature-engineering-dashboard}
 
 # Future Plans
 
